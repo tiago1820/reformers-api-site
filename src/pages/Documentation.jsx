@@ -42,12 +42,12 @@ function Documentation() {
                                 </li>
                                 <li>
                                     <a href="#" className="block p-2 hover:bg-gray-700 rounded">
-                                        Get a single character
+                                        Get a single reformer
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#" className="block p-2 hover:bg-gray-700 rounded">
-                                        Get multiple characters
+                                        Get multiple reformers
                                     </a>
                                 </li>
 
