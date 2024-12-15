@@ -1,8 +1,8 @@
 
-const Reformers = () => {
+const Reformer = () => {
     return (
         <section>
-            <h2 id="reformers" className="text-xl font-semibold mb-4">Reformers</h2>
+            <h2 id="reformers" className="text-xl font-semibold mb-4">Reformer</h2>
 
             <p>There is a total of 759 reformers sorted by id.</p>
             <br />
@@ -295,4 +295,4 @@ const Reformers = () => {
 
 }
 
-export default Reformers;
+export default Reformer;
