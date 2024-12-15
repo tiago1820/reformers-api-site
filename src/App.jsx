@@ -11,14 +11,16 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/documentation" element={<Documentation />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/support-us" element={<SupportUs />} />
-        </Routes>
-      </main>
+      <div className="h-screen flex flex-col overflow-hidden">
+        <main className="flex-1 overflow-auto">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/documentation" element={<Documentation />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/support-us" element={<SupportUs />} />
+          </Routes>
+        </main>
+      </div>
     </>
   )
 }
